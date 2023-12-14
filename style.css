@@ -1,0 +1,227 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(248, 242, 236);
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: cadetblue;
+    display: flex;
+    height: 20px;
+    justify-content: right;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    border-bottom: 1px solid lightgoldenrodyellow;
+   
+}
+
+nav ul {
+    display: flex;
+    
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 19px;
+    
+}
+
+nav ul li a:hover {
+    font-size: 20px;
+    color: lightgoldenrodyellow;
+}
+
+section video {
+    width: 100%;
+    height: 300px;
+    object-fit:cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 30%;
+    left: 65%;
+}
+
+h1{
+    font-size: 100px;
+    color: whitesmoke;
+    font-weight: 300;
+    text-shadow: 2px 2px 2px gray;
+    transition: 0s;
+}
+
+h1:hover {
+    font-size: 102px;
+    color: lightgoldenrodyellow;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+
+span {
+    color: lightgoldenrodyellow;
+    font-size: 85px;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    height:600px;
+    margin-top: -10px;
+}
+
+#home::before {
+    content: "";
+    background-image: url(https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+   
+}
+
+.main {
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 450px;
+    left: 70%;
+    color: aliceblue;
+    font-size: 50px;
+}
+
+h3 {
+    text-align: center;
+    margin: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    color: rgb(96, 117, 118);
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+}
+
+.about img {
+    margin-top: 35px;
+    margin-right: 20px;
+}
+
+p {
+    text-align: justify;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+.about h4 {
+    color: rgb(96, 117, 118);
+    margin: 20px;
+}
+.cv {
+    background-color: cadetblue;
+    border: black ridge 0px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px 20px 7px 20px;
+    margin: 40px 20px 20px 20px;
+    text-align: center;
+}
+.cv:hover{
+background-color: rgb(140, 182, 184);
+color: black;
+padding: 5px 40px 7px 40px; 
+transition-duration: 0.3s;
+}
+
+
+.gallery {
+    justify-content: space-between;
+
+}
+
+.gallery img {
+    width: 350px;
+    margin: 20px;
+    margin-bottom: 10px;
+    transition: 0s;
+}
+
+.gallery img:hover {
+    width: 355px;
+    opacity: .86;
+    cursor: pointer;
+    box-shadow: cadetblue 0px 2px 8px 0px;
+    transition-duration: 0.2s;
+}
+
+.s-row {
+    display: flex;
+    height: 200px;
+}
+.s-row:hover {
+    height: 400px;
+    transition-duration: 1s;
+}
+
+.s-box {
+    width: 300px;
+    height: 175px;
+    margin: 25px;
+    background: linear-gradient(to top, rgb(161, 202, 203) 50%, cadetblue 50%);
+    background-size: 100% 200%;
+    color: rgb(248, 242, 236);
+}
+
+.s-box:hover {
+    background-position: bottom;
+    color: black;
+    height: 400px;
+    transition-duration: .5s;
+}
+
+.s-box img {
+    width: 100%;
+}
+
+.s-box h4 {
+    color: black;
+    text-align: center;
+}
+
+.s-box p {
+    text-align: justify;
+    padding: 5px;
+}
+
+form {
+    width: 500px;
+    margin-left: 350px;
+}
+
+.input {
+    width: 100%;
+    margin: 10px;
+}
+
+button {
+    color: white;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 15px;
+}
+button:hover {
+    background-color: rgba(95, 158, 160, 0.842);
+    cursor: pointer;
+}
+
